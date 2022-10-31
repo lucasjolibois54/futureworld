@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
-import { HeroComponent } from 'src/app/components/home/hero/hero/hero.component';
+import { HeroComponent } from 'src/app/components/home/hero/hero.component';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
