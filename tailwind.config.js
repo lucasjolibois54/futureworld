@@ -50,6 +50,7 @@ module.exports = {
         // colors
         'blue-hover': '#00ddff',
         'white-button': '#D8D8D8',
+        'green-text': '#264347',
       }
     },
   },
