@@ -9,6 +9,8 @@ import { AboutPageRoutingModule } from './about-routing.module';
 import { AboutPage } from './about.page';
 
 import { HeroComponent } from 'src/app/components/about/hero/hero.component';
+import { NavComponent } from 'src/app/components/main/nav/nav.component';
+
 
 @NgModule({
   imports: [
@@ -18,6 +20,7 @@ import { HeroComponent } from 'src/app/components/about/hero/hero.component';
     AboutPageRoutingModule
   ],
   declarations: [AboutPage,
-    HeroComponent]
+    HeroComponent, 
+    NavComponent,]
 })
 export class AboutPageModule {}
