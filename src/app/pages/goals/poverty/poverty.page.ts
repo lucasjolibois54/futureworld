@@ -17,7 +17,7 @@ export class PovertyPage implements OnInit {
 
   primarytextdata={
     titlepartone: 'All of',
-    titlepartto: 'our',
+    titleparttwo: 'our',
     titlepartthree: 'Sustainable',
 
     textone: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.",
@@ -32,7 +32,7 @@ export class PovertyPage implements OnInit {
 
   secondarytextdata={
     titlepartone: 'All of',
-    titlepartto: 'our',
+    titleparttwo: 'our',
     titlepartthree: 'Sustainable',
 
     textone: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.",
@@ -64,6 +64,18 @@ export class PovertyPage implements OnInit {
   quotedata={
     textquote: '“Our goal is to help you as a student become less economical worried by giving you access to cheap & modern student apartments. We want to improve your consumption in the household and show you how to save money.',
   }
+
+  nextprojectdata={
+    textonelineone: 'Economic',
+    textonelinetwo: 'Growth',
+    nextporjectpathone: '/',
+
+    texttwolineone: 'Less',
+    texttwolinetwo: 'Inequality',
+    nextporjectpathtwo: '/',
+
+  }
+
 
 
   constructor() { }
