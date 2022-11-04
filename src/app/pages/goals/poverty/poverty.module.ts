@@ -16,7 +16,7 @@ import { FactBoxComponent } from 'src/app/components/goals/fact-box/fact-box.com
 import { ImageComponent } from 'src/app/components/goals/image/image.component';
 import { QuoteComponent } from 'src/app/components/goals/quote/quote.component';
 import { NextProjectComponent } from 'src/app/components/goals/next-project/next-project.component';
-import { FooterComponent } from 'src/app/components/main/footer/footer.component';
+import { SecondaryFooterComponent } from 'src/app/components/main/secondary-footer/secondary-footer.component';
 
 @NgModule({
   imports: [
@@ -35,7 +35,7 @@ import { FooterComponent } from 'src/app/components/main/footer/footer.component
     ImageComponent,
     QuoteComponent,  
     NextProjectComponent,  
-    FooterComponent
+    SecondaryFooterComponent
   ]
 })
 export class PovertyPageModule {}
