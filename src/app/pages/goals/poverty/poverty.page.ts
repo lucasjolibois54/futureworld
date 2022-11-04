@@ -70,11 +70,11 @@ export class PovertyPage implements OnInit {
   nextprojectdata={
     textonelineone: 'Economic',
     textonelinetwo: 'Growth',
-    nextporjectpathone: '/',
+    nextporjectpathone: '/consumption-and-production',
 
     texttwolineone: 'Less',
     texttwolinetwo: 'Inequality',
-    nextporjectpathtwo: '/',
+    nextporjectpathtwo: '/reduced-inequalities',
 
   }
 
