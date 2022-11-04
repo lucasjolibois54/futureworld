@@ -17,7 +17,7 @@ export class PovertyPage implements OnInit {
 
   primarytextdata={
     titlepartone: 'All of',
-    titlepartto: 'our',
+    titleparttwo: 'our',
     titlepartthree: 'Sustainable',
 
     textone: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.",
@@ -32,7 +32,7 @@ export class PovertyPage implements OnInit {
 
   secondarytextdata={
     titlepartone: 'All of',
-    titlepartto: 'our',
+    titleparttwo: 'our',
     titlepartthree: 'Sustainable',
 
     textone: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.",
