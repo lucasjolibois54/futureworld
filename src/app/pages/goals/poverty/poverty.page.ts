@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PovertyPage implements OnInit {
 
+  data={
+    name: 'We are experts in inspiring companies, to change the world with 4 Sustainable Development goals.',
+    age: 999,
+    city: 'lililand'
+  }
+
   constructor() { }
 
   ngOnInit() {
