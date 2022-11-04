@@ -26,6 +26,10 @@ export class PovertyPage implements OnInit {
     textthree: '“Our goal is to help you as a student become less economical worried by giving you access to cheap & modern student apartments. We want to improve your consumption in the household and show you how to save money.',
   }
 
+  videodata={
+    videolink: 'https://res.cloudinary.com/dckwf6med/video/upload/v1661542030/Web%20Dev%20Projects/About_Us-_LB_Fitness_1_yqqh70.mp4?controls=0',
+  }
+
   secondarytextdata={
     titlepartone: 'All of',
     titlepartto: 'our',
@@ -51,6 +55,10 @@ export class PovertyPage implements OnInit {
     textone: "750mil in poverty",
     texttwo: "600mil homeless",
     textthree: "750mil in poverty",
+  }
+
+  imagedata={
+    imagelink: './assets/img/poor-family.webp',
   }
 
   quotedata={
