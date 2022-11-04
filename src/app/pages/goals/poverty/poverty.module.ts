@@ -18,6 +18,7 @@ import { ImageComponent } from 'src/app/components/goals/image/image.component';
 import { QuoteComponent } from 'src/app/components/goals/quote/quote.component';
 import { NextProjectComponent } from 'src/app/components/goals/next-project/next-project.component';
 import { SecondaryFooterComponent } from 'src/app/components/main/secondary-footer/secondary-footer.component';
+import { SecondaryDefaultTextComponent } from 'src/app/components/goals/secondary-default-text/secondary-default-text.component';
 
 @NgModule({
   imports: [
@@ -38,6 +39,7 @@ import { SecondaryFooterComponent } from 'src/app/components/main/secondary-foot
     QuoteComponent,  
     NextProjectComponent,  
     SecondaryFooterComponent,
+    SecondaryDefaultTextComponent,
   ]
 })
 export class PovertyPageModule {}
