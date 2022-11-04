@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-secondary-default-text',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./secondary-default-text.component.scss'],
 })
 export class SecondaryDefaultTextComponent implements OnInit {
+
+  @Input() secondarytext
 
   constructor() { }
 
