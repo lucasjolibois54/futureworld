@@ -65,6 +65,18 @@ export class PovertyPage implements OnInit {
     textquote: '“Our goal is to help you as a student become less economical worried by giving you access to cheap & modern student apartments. We want to improve your consumption in the household and show you how to save money.',
   }
 
+  nextprojectdata={
+    textonelineone: 'Economic',
+    textonelinetwo: 'Growth',
+    nextporjectpathone: '/',
+
+    texttwolineone: 'Less',
+    texttwolinetwo: 'Inequality',
+    nextporjectpathtwo: '/',
+
+  }
+
+
 
   constructor() { }
 
