@@ -21,8 +21,14 @@ module.exports = {
       'md-blog-img': '791px',
       // => @media (min-width: 791px) { ... }
 
+      'burgernav': '833px',
+      // => @media (min-width: 831px) { ... }
+
       'lg-blog-img': '839px',
       // => @media (min-width: 839px) { ... }
+
+      'navchange': '859px',
+      // => @media (min-width: 859px) { ... }
 
       'md-lg': '878px',
       // => @media (min-width: 878px) { ... }
@@ -32,6 +38,9 @@ module.exports = {
 
       'sm-lg': '696px',
       // => @media (min-width: 696px) { ... }
+
+      'md-lg': '1029px',
+      // => @media (min-width: 1029px) { ... }
 
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
