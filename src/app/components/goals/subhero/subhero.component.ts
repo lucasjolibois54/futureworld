@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-subhero',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./subhero.component.scss'],
 })
 export class SubheroComponent implements OnInit {
+
+  @Input() subhero
 
   constructor() { }
 
