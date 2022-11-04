@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-fact-box',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fact-box.component.scss'],
 })
 export class FactBoxComponent implements OnInit {
+
+  @Input() factbox
 
   constructor() { }
 
