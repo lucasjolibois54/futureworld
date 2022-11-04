@@ -39,6 +39,9 @@ module.exports = {
       'biggerlg': '1039px',
       // => @media (min-width: 1039px) { ... }
 
+      'smallxl': '1100px',
+      // => @media (min-width: 1100px) { ... }
+
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
 
