@@ -42,6 +42,9 @@ module.exports = {
       'smallxl': '1100px',
       // => @media (min-width: 1100px) { ... }
 
+      'mednav': '1148px',
+      // => @media (min-width: 1148px) { ... }
+
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
 
