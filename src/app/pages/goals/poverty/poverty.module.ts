@@ -12,6 +12,7 @@ import { HeroComponent } from 'src/app/components/goals/hero/hero.component';
 import { SubheroComponent } from 'src/app/components/goals/subhero/subhero.component';
 import { DefaultTextComponent } from 'src/app/components/goals/default-text/default-text.component';
 import { VideoComponent } from 'src/app/components/goals/video/video.component';
+import { TextSliderComponent } from 'src/app/components/goals/text-slider/text-slider.component';
 import { FactBoxComponent } from 'src/app/components/goals/fact-box/fact-box.component';
 import { ImageComponent } from 'src/app/components/goals/image/image.component';
 import { QuoteComponent } from 'src/app/components/goals/quote/quote.component';
@@ -31,11 +32,12 @@ import { SecondaryFooterComponent } from 'src/app/components/main/secondary-foot
     SubheroComponent,
     DefaultTextComponent,
     VideoComponent,
+    TextSliderComponent,
     FactBoxComponent,
     ImageComponent,
     QuoteComponent,  
     NextProjectComponent,  
-    SecondaryFooterComponent
+    SecondaryFooterComponent,
   ]
 })
 export class PovertyPageModule {}
