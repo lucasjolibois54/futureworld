@@ -6,6 +6,7 @@ import { HomePage } from './home.page';
 import { HeroComponent } from 'src/app/components/home/hero/hero.component';
 import { LightNavComponent } from 'src/app/components/main/light-nav/light-nav.component';
 import { SubHeroComponent } from 'src/app/components/home/sub-hero/sub-hero.component';
+import { SliderComponent } from 'src/app/components/home/slider/slider.component';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
@@ -20,6 +21,7 @@ import { HomePageRoutingModule } from './home-routing.module';
   declarations: [HomePage,
     LightNavComponent,
     HeroComponent,
-    SubHeroComponent]
+    SubHeroComponent,
+    SliderComponent]
 })
 export class HomePageModule {}
