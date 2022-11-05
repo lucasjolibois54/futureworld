@@ -1,0 +1,101 @@
+<div
+  class="max-w-8xl mx-auto ml-5 mr-5 sm:ml-16 sm:mr-16 md:ml-20 md:mr-20 pt-10"
+>
+  <header>
+    <nav
+      class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-secondary-fw font-medium"
+    >
+      <div>
+        <a class="text-secondary-fw" href="/">
+          <ion-label class="cursor-pointer py-2 text-2xl md:text-lg mednav:text-3xl md-lg:text-2xl lg:text-lg font-semibold"
+            >/Future<span class="font-light">World</span>
+          </ion-label>
+        </a>
+      </div>
+      <div id="main-content" class="burgernav:hidden block">
+        <ion-menu-toggle>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="menu-button"
+              class="h-6 w-6 cursor-pointer burgernav:hidden block"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </div>
+        </ion-menu-toggle>
+      </div>
+
+      <div class="hidden w-full burgernav:flex md:items-center md:w-auto" id="menu">
+        <ul
+          class="pt-4 text-sm navchange:text-sm md:text-md mednav:text-2xl lg:text-xl font-base text-secondary-fw flex justify-between md:pt-0"
+        >
+          <li>
+            <a class="text-secondary-fw" href="/">
+              <ion-label
+                class="md:p-4 py-2 mx-3 block cursor-pointer transition duration-300 group transform hover:-translate-y-1 rounded-xl font-light"
+                >Home</ion-label
+              >
+            </a>
+          </li>
+          <li>
+            <a class="text-secondary-fw" href="/about">
+              <ion-label
+                class="md:p-4 py-2 mx-3 block cursor-pointer transition duration-300 group transform hover:-translate-y-1 rounded-xl font-light"
+                >About us</ion-label
+              >
+            </a>
+          </li>
+          <li>
+            <a class="text-secondary-fw" href="/how-it-works">
+              <ion-label
+                class="md:p-4 py-2 mx-3 block cursor-pointer transition duration-300 group transform hover:-translate-y-1 rounded-xl font-light"
+                >How it works</ion-label
+              >
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="hidden w-full burgernav:flex md:items-center md:w-auto" id="menu">
+        <ul
+          class="pt-4 text-2xl font-base text-secondary-fw flex justify-between md:pt-0"
+        >
+        
+          <li>
+            <a class="md:p-2 py-0 mx-3 block cursor-pointer text-secondary-fw"
+              >
+              <button class="button-contact" role="button">Contact</button>
+              <!-- <ion-button class="text-white" color="primary"
+                >Contact</ion-button
+              > -->
+              </a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+</div>
+
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Menu Content</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-menu-toggle>
+      <ion-button>Click to close the menu</ion-button>
+    </ion-menu-toggle>
+  </ion-content>
+</ion-menu>
