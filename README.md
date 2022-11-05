@@ -56,7 +56,7 @@
   <br/>
 
 
-FutureWorld is a non-profit organization web application helping local businesses achieve four sustainable development goals! The application is based on Angular & Ionic. The application is an informative web app, guiDING AND showing relevant information to the user.
+FutureWorld is a non-profit organization web application helping local businesses achieve four sustainable development goals! The application is based on Angular & Ionic. The application is an informative web app, guiding and showing relevant information to the user.
 
 What is it, and how was it made:
 * FutureWorld is a web application based upon Angular and Ionic
