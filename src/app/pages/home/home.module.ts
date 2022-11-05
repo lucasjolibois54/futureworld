@@ -4,7 +4,7 @@ import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 import { HeroComponent } from 'src/app/components/home/hero/hero.component';
-import { NavComponent } from 'src/app/components/main/nav/nav.component';
+import { LightNavComponent } from 'src/app/components/main/light-nav/light-nav.component';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
@@ -17,7 +17,7 @@ import { HomePageRoutingModule } from './home-routing.module';
     HomePageRoutingModule
   ],
   declarations: [HomePage,
-    NavComponent,
+    LightNavComponent,
     HeroComponent]
 })
 export class HomePageModule {}
