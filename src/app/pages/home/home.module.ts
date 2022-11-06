@@ -8,6 +8,7 @@ import { LightNavComponent } from 'src/app/components/main/light-nav/light-nav.c
 import { SubHeroComponent } from 'src/app/components/home/sub-hero/sub-hero.component';
 import { SliderComponent } from 'src/app/components/home/slider/slider.component';
 import { FourGoalsComponent } from 'src/app/components/home/four-goals/four-goals.component';
+import { HowHelpBusinessComponent } from 'src/app/components/home/how-help-business/how-help-business.component';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
@@ -24,6 +25,7 @@ import { HomePageRoutingModule } from './home-routing.module';
     HeroComponent,
     SubHeroComponent,
     SliderComponent,
-    FourGoalsComponent]
+    FourGoalsComponent,
+    HowHelpBusinessComponent]
 })
 export class HomePageModule {}
