@@ -1,3 +1,11 @@
 .maximum-hero-height{
     max-height: 1050px;
 }
+
+#background-hero {
+    background: url("/assets/img/hero-home.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    max-height: 1050px;
+  }
