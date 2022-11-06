@@ -13,7 +13,7 @@ export class PovertyPage implements OnInit {
 
   subherodata={
     introtext: '“We are experts in inspiring companies, to change the world with 4 Sustainable Development goals. We are experts in inspiring companies, to change the world with 4 Sustainable Development goals. We are experts in inspiring companies, to change the world with 4 Sustainable Development goals. ',
-    pagelink: "/poverty"
+    pagelink: "https://futureworld.vercel.app/poverty"
   }
 
   primarytextdata={
