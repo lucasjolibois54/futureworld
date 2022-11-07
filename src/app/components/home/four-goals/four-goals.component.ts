@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FourGoalsComponent implements OnInit {
 
+  fullscreen(video){
+    video.requestFullscreen();
+
+}
+
   constructor() { }
 
   ngOnInit() {}
