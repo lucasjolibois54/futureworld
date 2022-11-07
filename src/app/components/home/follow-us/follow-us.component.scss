@@ -32,7 +32,7 @@ div.element-slider {
 			display:flex;
 			justify-content:center;
 			align-items:center;
-			background:#fff;
+			background:#EFEDE6;
 			color:#343434;
 		}
 	}
@@ -56,7 +56,7 @@ div.element-slider {
 	100% { transform:translateX(calc(-180px * 12));  }
 }
 #infinite div.element-barrier {
-	background:#fff;
+	background:#EFEDE6;
 	box-shadow:0 3px 10px -3px rgba(0,0,0,0.3);
 	&::before,
 	&::after {
@@ -64,15 +64,15 @@ div.element-slider {
 		position:absolute;
 		z-index:9;
 		width:180px;
-		height:100%;	
+		height:150%;	
 	}
 	&::before {
 		top:0;left:0;
-		background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+		background: linear-gradient(to right, rgba(239, 237, 230, 1) 0%, rgba(255,255,255,0) 100%);
 	}
 	&::after {
 		top:0;right:0;
-		background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+		background: linear-gradient(to left, rgba(239, 237, 230, 1) 0%, rgba(255,255,255,0) 100%);
 	}
 	ul.all-elements {
 		width:calc(180px * 24);
