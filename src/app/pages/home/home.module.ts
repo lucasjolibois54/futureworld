@@ -13,13 +13,16 @@ import { FollowUsComponent } from 'src/app/components/home/follow-us/follow-us.c
 import { FooterComponent } from 'src/app/components/main/footer/footer.component';
 import { HomePageRoutingModule } from './home-routing.module';
 
+import { SwiperModule } from 'swiper/angular';
+
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    SwiperModule
   ],
   declarations: [HomePage,
     LightNavComponent,
