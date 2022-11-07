@@ -3,14 +3,13 @@
 <home-hero></home-hero>
 <app-sub-hero></app-sub-hero>
 <app-four-goals></app-four-goals>
-<app-slider></app-slider>
 <div class="max-w-8xl mx-auto text-primary-fw">
     <p
         class="text-primary-fw text-3xl md:text-5xl max-w-6xl pt-5 sm:pt-20 md:pt-20 !leading-tight ml-16 mr-16 md:ml-28 md:mr-28 mb-10"
       >
       <span class="font-semibold">All of </span>our Sustainable <br> Development <span class="font-semibold">goals</span>
       </p>
-<swiper class="swiper-container"
+<swiper [config]="swiperConfig" class="swiper-container"
       [slidesPerView]="3"
       [spaceBetween]="50"
       (swiper)="onSwiper($event)"
