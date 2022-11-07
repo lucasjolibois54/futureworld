@@ -30,3 +30,54 @@
 #container a {
   text-decoration: none;
 }*/
+
+@import 'swiper/scss';
+@import 'swiper/scss/navigation';
+@import 'swiper/scss/pagination';
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-container{
+  margin-left: 30px;
+}
+
+@media screen and (min-width: 1920px) {
+  .swiper-slide img {
+    width: 80%;
+    height: 800px;
+    border-radius: 20px;
+    margin-left: 80px
+  }
+}
+
+
+
+.swiper-button-prev {
+  color: #000; 
+  /*background-color: #264347; 
+  border-radius: 900px;
+  border-width: 60px;
+  border-color: #264347; */
+}
+
+.swiper-button-next {
+  color: #000; 
+  /*background-color: #264347; 
+  border-radius: 200px;
+  border-width: 60px;
+  border-color: #264347;*/
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
+}
+
+.swiper-pagination-bullet{
+  background-color: rgb(255, 255, 255);
+}
+
