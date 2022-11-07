@@ -1,11 +1,48 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+
+import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
+// install Swiper modules
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 @Component({
   selector: 'app-poverty',
   templateUrl: './poverty.page.html',
   styleUrls: ['./poverty.page.scss'],
+  encapsulation: ViewEncapsulation.None
 })
 export class PovertyPage implements OnInit {
+
+  swiperConfig: any = {
+    slidesPerView: 'auto',
+    spaceBetween: 60,
+    breakpoints: {
+        315: {
+            spaceBetween: 20,
+            slidesPerView:'1.3'
+        },
+
+        768: {
+          spaceBetween: 20,
+          slidesPerView:'2.5'
+      },
+
+        1024: {
+          spaceBetween: 10,
+          slidesPerView:'3.0'
+      },
+
+      1498: {
+        spaceBetween: 60,
+        slidesPerView:'3.5'
+    },
+
+      2560: {
+        spaceBetween: 20,
+        slidesPerView:'3.5'
+    }
+    }
+}
 
   herodata={
     title: 'We are experts in inspiring companies, to change the world with 4 Sustainable Development goals.',
