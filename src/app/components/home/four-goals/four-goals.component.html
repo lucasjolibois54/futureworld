@@ -2,7 +2,13 @@
   <div id="container" class="mt-28 text-center mb-20 ">
     <div id="parentb"></div>
 
-    <img class="video-cursor-preview" src="./assets/img/video-img.png" cursor-active cursor-opacity="0">
+    <!-- <img class="video-cursor-preview" src="./assets/img/video-img.png" cursor-active cursor-opacity="0"> -->
+<!-- 
+    <video class="video-cursor-preview"  controls>
+      <source src="./assets/video/FutureWorld-intro-home.mp4" type="video/mp4">
+      <source src="./assets/video/FutureWorld-intro-home.mp4" type="video/ogg">
+    Your browser does not support the video tag.
+    </video> -->
   </div>
 </div>
 
@@ -12,23 +18,20 @@
 
 <section class="center">
   <div class="center__inner">
-    <div class="content">
-      <label class="button" for="modal__state"><i class="fa fa-rocket"></i> Launch it!</label>
+    <div class="">
+      <label class="button" for="modal__state"><i class="fa fa-rocket"></i>     
+        <img class="video-cursor-preview" src="./assets/img/video-img.png" cursor-active cursor-opacity="0"></label>
       <input type="checkbox" name="modal__state" id="modal__state" class="modal__state">
       <div class="modal__overlay">
         <label for="modal__state" class="modal__overlay-close"></label>
         <div class="modal">
           <label class="button button--close modal__close" for="modal__state"><i class="fa fa-times"></i></label>
-          <h2>Here is the modal!</h2>
-            <p class="lede">Created with pure CSS, and probably non-functional in many browsers.</p>
-            <p>The <span class="button button--inline">launch</span> button is a <span class="code">&lt;label&gt;</span>
-              attached to a radio <span class="code">&lt;input&gt;</span>. Clicking the label toggles the radio input.
-              Using the <span class="code">:checked</span> pseudo-selector and the <span class="code">+</span> sibling
-              selector, the <span class="code">.modal__wrapper</span> is made visible when the radio is checked.</p>
 
-            <p>The close button in a second label/radio input with the same name attribute, so when it is clicked, the
-              launch button loses its :checked state and the modal goes back to <span class="code">display: none</span>.
-            <p>
+          <video class="video-cursor-preview"  controls>
+            <source src="./assets/video/FutureWorld-intro-home.mp4" type="video/mp4">
+            <source src="./assets/video/FutureWorld-intro-home.mp4" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
         </div>
       </div>
     </div>
