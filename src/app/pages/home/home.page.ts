@@ -1,4 +1,4 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component, ViewEncapsulation, OnInit } from '@angular/core';
 
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
@@ -11,13 +11,38 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
   styleUrls: ['home.page.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class HomePage {
+export class HomePage implements OnInit {
 
-  data={
-    name: 'Brorz',
-    age: 999,
-    city: 'lililand'
-  }
-  constructor() {}
+  swiperConfig: any = {
+    slidesPerView: 'auto',
+    spaceBetween: 60,
+    breakpoints: {
+        315: {
+            spaceBetween: 20,
+            slidesPerView:'1.3'
+        },
+
+        768: {
+          spaceBetween: 20,
+          slidesPerView:'2.5'
+      },
+
+        1024: {
+          spaceBetween: 60,
+          slidesPerView:'2.5'
+      },
+
+      2560: {
+        spaceBetween: 20,
+        slidesPerView:'3.5'
+    }
+    }
+}
+
+constructor() {
+}
+
+ngOnInit() {
+}
 
 }
