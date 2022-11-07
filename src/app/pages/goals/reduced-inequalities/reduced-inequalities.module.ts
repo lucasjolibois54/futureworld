@@ -8,6 +8,19 @@ import { ReducedInequalitiesPageRoutingModule } from './reduced-inequalities-rou
 
 import { ReducedInequalitiesPage } from './reduced-inequalities.page';
 
+import { NavComponent } from 'src/app/components/main/nav/nav.component';
+import { HeroComponent } from 'src/app/components/goals/hero/hero.component';
+import { SubheroComponent } from 'src/app/components/goals/subhero/subhero.component';
+import { DefaultTextComponent } from 'src/app/components/goals/default-text/default-text.component';
+import { VideoComponent } from 'src/app/components/goals/video/video.component';
+import { TextSliderComponent } from 'src/app/components/goals/text-slider/text-slider.component';
+import { FactBoxComponent } from 'src/app/components/goals/fact-box/fact-box.component';
+import { ImageComponent } from 'src/app/components/goals/image/image.component';
+import { QuoteComponent } from 'src/app/components/goals/quote/quote.component';
+import { NextProjectComponent } from 'src/app/components/goals/next-project/next-project.component';
+import { SecondaryFooterComponent } from 'src/app/components/main/secondary-footer/secondary-footer.component';
+import { SecondaryDefaultTextComponent } from 'src/app/components/goals/secondary-default-text/secondary-default-text.component';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -15,6 +28,21 @@ import { ReducedInequalitiesPage } from './reduced-inequalities.page';
     IonicModule,
     ReducedInequalitiesPageRoutingModule
   ],
-  declarations: [ReducedInequalitiesPage]
+  declarations: [ReducedInequalitiesPage,
+    NavComponent,
+    HeroComponent,
+    SubheroComponent,
+    DefaultTextComponent,
+    VideoComponent,
+    TextSliderComponent,
+    FactBoxComponent,
+    ImageComponent,
+    QuoteComponent,  
+    NextProjectComponent,  
+    SecondaryFooterComponent,
+    SecondaryDefaultTextComponent,
+  ]
+  
+
 })
 export class ReducedInequalitiesPageModule {}
