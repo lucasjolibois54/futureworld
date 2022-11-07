@@ -10,7 +10,7 @@ import { SliderComponent } from 'src/app/components/home/slider/slider.component
 import { FourGoalsComponent } from 'src/app/components/home/four-goals/four-goals.component';
 import { HowHelpBusinessComponent } from 'src/app/components/home/how-help-business/how-help-business.component';
 import { FollowUsComponent } from 'src/app/components/home/follow-us/follow-us.component';
-
+import { FooterComponent } from 'src/app/components/main/footer/footer.component';
 import { HomePageRoutingModule } from './home-routing.module';
 
 
@@ -28,6 +28,7 @@ import { HomePageRoutingModule } from './home-routing.module';
     SliderComponent,
     FourGoalsComponent,
     HowHelpBusinessComponent,
-  FollowUsComponent]
+  FollowUsComponent,
+  FooterComponent]
 })
 export class HomePageModule {}
