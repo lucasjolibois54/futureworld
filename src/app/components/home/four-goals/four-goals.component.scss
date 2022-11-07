@@ -5,35 +5,6 @@
   }
   
 
-  #test{
-    position: absolute;
-  }
-
-  .text{
-    color: #ffffff8e;
-  }
-
-  .text:hover{
-    color: #EFEDE6;
-  }
-  
-  #parent:hover #hover-content {
-      display:block;
-    position: absolute;
-      content:url(https://img.freepik.com/free-photo/portrait-happy-contented-satisfied-attractive-man-denim-trendy-shirt-showing-with-his-index-finger-top-right-cornerxt_295783-1217.jpg?w=2000);
-      width: 100%;
-    object-fit: cover;
-    z-index: -1;
-  }
-  
-  #parentb {
-    display:block;
-  position: absolute;
-    content:url(https://raw.githubusercontent.com/lucasjolibois54/futureworld/main/src/assets/img/poverty-home.webp);
-    width: 100%;
-  object-fit: cover;
-  z-index: -2;
-}
 
 #parentbeta {
     display:block;
@@ -44,18 +15,3 @@
   z-index: -3;
 }
 
-  #test2{
-    position: absolute;
-    top:50px;
-  }
-  #hover-content2 {
-      display:none;
-  }
-  #parent2:hover #hover-content2 {
-      display:block;
-    position: absolute;             
-    content:url(https://static8.depositphotos.com/1008303/880/i/450/depositphotos_8807359-stock-photo-mixed-race-man-smiling.jpg);
-    width: 100%;
-    object-fit: cover;
-    z-index: -1;
-  }
