@@ -19,6 +19,7 @@ import { QuoteComponent } from 'src/app/components/goals/quote/quote.component';
 import { NextProjectComponent } from 'src/app/components/goals/next-project/next-project.component';
 import { SecondaryFooterComponent } from 'src/app/components/main/secondary-footer/secondary-footer.component';
 import { SecondaryDefaultTextComponent } from 'src/app/components/goals/secondary-default-text/secondary-default-text.component';
+import { DefaultListWithTextComponent } from 'src/app/components/goals/default-list-with-text/default-list-with-text.component';
 
 import { SwiperModule } from 'swiper/angular';
 
@@ -43,6 +44,7 @@ import { SwiperModule } from 'swiper/angular';
     NextProjectComponent,  
     SecondaryFooterComponent,
     SecondaryDefaultTextComponent,
+    DefaultListWithTextComponent
   ]
 })
 export class PovertyPageModule {}
