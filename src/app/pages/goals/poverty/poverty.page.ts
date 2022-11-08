@@ -65,8 +65,8 @@ export class PovertyPage implements OnInit {
     textthree: '“Goal number 1 commits every nation of the world to initiate a targeted effort to increase the poor nations access to basic resources, like food, medicine, and service provisions like education.',
   }
 
-  videodata={
-    videolink: 'https://res.cloudinary.com/dckwf6med/video/upload/v1661542030/Web%20Dev%20Projects/About_Us-_LB_Fitness_1_yqqh70.mp4?controls=0',
+  imageonedata={
+    imagelink: './assets/img/poverty-img-1.png',
   }
 
   secondarytextdata={
