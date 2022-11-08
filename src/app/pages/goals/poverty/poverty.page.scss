@@ -198,6 +198,25 @@
   
     }
 
+    @media screen and (min-width: 1440px) {
+      .Poverty {
+          position: absolute;
+          top: 40%;
+          left: 8%;
+        }
+      
+        .Poverty-p {
+          position: absolute;
+          top: 55%;
+          left: 8%;
+          font-size: 20px;
+        }
+        .swiper-slide img {
+          width: 100%;
+        }
+  
+    }
+
   
     @media screen and (min-width: 2560px) {
       .Poverty {
