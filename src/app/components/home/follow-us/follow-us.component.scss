@@ -53,11 +53,11 @@ div.element-slider {
 }
 
 @keyframes translateinfinite {
-	100% { transform:translateX(calc(-180px * 12));  }
+	100% { transform:translateX(calc(-100px * 12));  }
 }
 #infinite div.element-barrier {
 	background:#EFEDE6;
-	box-shadow:0 3px 10px -3px rgba(0,0,0,0.3);
+	/*box-shadow:0 3px 10px -3px rgba(0,0,0,0.3);*/
 	&::before,
 	&::after {
 		content: " ";
