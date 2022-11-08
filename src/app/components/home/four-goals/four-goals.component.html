@@ -3,15 +3,15 @@
     <div id="parentb"></div>
 
 
-    <img class="video-cursor-preview" src="./assets/img/video-img.png" cursor-active cursor-opacity="0"> 
+    <!-- <img class="video-cursor-preview" src="./assets/img/video-img.png" cursor-active cursor-opacity="0">  -->
 
-    <div class="container-video">
+    <!-- <div class="container-video">
     <video class="video-cursor-preview"  controls>
       <source src="./assets/video/FutureWorld-intro-home.mp4" type="video/mp4">
       <source src="./assets/video/FutureWorld-intro-home.mp4" type="video/ogg">
     Your browser does not support the video tag.
     </video>
-  </div>
+  </div> -->
 
     <!-- <div class="">
           <a (click)="fullscreen(video);">
@@ -21,3 +21,12 @@
        </video></a>
      </div>
  -->
+ <a (click)="fullscreen(video);">
+ <div class="video video-cursor-preview" cursor-active cursor-opacity="0">
+  <video #video  class="w-full object-none" id="max-height-video">
+    <source src="./assets/video/FutureWorld-intro-home.mp4" type="video/mp4">
+    <source src="./assets/video/FutureWorld-intro-home.mp4" type="video/ogg">
+  Browser not supported
+</video>
+</div> 
+</a>
