@@ -29,7 +29,7 @@ export class PovertyPage implements OnInit {
 
         1024: {
           spaceBetween: 10,
-          slidesPerView:'3.0'
+          slidesPerView:'2.7'
       },
 
       1498: {
