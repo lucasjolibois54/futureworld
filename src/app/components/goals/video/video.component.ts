@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class VideoComponent implements OnInit {
 
-  @Input() video
+  @Input() imageone
 
   constructor() { }
 
