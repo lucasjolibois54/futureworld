@@ -21,28 +21,28 @@ export class PovertyPage implements OnInit {
             spaceBetween: 20,
             slidesPerView:'1.3'
         },
-
+  
         768: {
           spaceBetween: 20,
           slidesPerView:'2.5'
       },
-
+  
         1024: {
           spaceBetween: 10,
           slidesPerView:'2.7'
       },
-
+  
       1498: {
         spaceBetween: 60,
         slidesPerView:'3.5'
     },
-
+  
       2560: {
         spaceBetween: 20,
-        slidesPerView:'3.5'
+        slidesPerView:'2.8'
     }
     }
-}
+  }
 
   herodata={
     title: 'We are experts in inspiring companies, to change the world with 4 Sustainable Development goals.',
