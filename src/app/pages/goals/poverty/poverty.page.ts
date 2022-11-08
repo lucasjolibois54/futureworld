@@ -87,9 +87,12 @@ export class PovertyPage implements OnInit {
     titlepartthree: 'Sustainable',
 
     textone: "Facts",
-    texttwo: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.",
-    cta: "Our goals and values",
-    ctalink: 'https://www.pexels.com/da-dk/video/huse-stov-fattig-faellesskab-3695933/',
+    listone: "50% of all people living in poverty are below 18 years of age.",
+    listtwo:"1 person in every 10 is extremely poor- living below 1.90$ per day.",
+    listthree:"1 out 5 children live in extreme poverty Poorest Country in the World: Liberia (GNI per capita: $710)",
+    listfour:"Richest country in the world: Qatar (GNI per capita of $116,799)",
+    listfive:"Best Performing countries",
+    listsix:"Denmark, Sweden, Finland, France, Austria, Germany",
     textthree: "Idea:Install a Donation box in the common spaces in your office. Call it the 'Box of Happiness' and start an office ritual of donating 1 kr whenever someone feels happy or grateful. At the end of the year, donate the money collected to NGOs working for poverty eradication. Make sure to let your employees know that their happiness is contagious, as their contributions will make many other poor people happy!",
   }
 
@@ -114,7 +117,7 @@ export class PovertyPage implements OnInit {
   }
 
   quotedata={
-    textquote: '““Eradicating poverty is not a task of charity, it’s an act of justice and the key to unlocking an enormous human potential. Still, nearly half of the world’s population lives in poverty, and lack of food and clean water is killing thousands every single day of the year. Together, we can feed the hungry, wipe out disease and give everyone in the world a chance to prosper and live a productive and rich life.”    ',
+    textquote: "Eradicating poverty is not a task of charity, it's an act of justice and the key to unlocking an enormous human potential. Still, nearly half of the worl's population lives in poverty, and lack of food and clean water is killing thousands every single day of the year. Together, we can feed the hungry, wipe out disease and give everyone in the world a chance to prosper and live a productive and rich life."
   }
 
   nextprojectdata={
