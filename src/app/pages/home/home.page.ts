@@ -27,15 +27,20 @@ export class HomePage implements OnInit {
           slidesPerView:'2.5'
       },
 
-        1024: {
+        780: {
           spaceBetween: 60,
-          slidesPerView:'2.5'
+          slidesPerView:'3.2'
       },
 
-      1498: {
+      1024: {
         spaceBetween: 60,
         slidesPerView:'3.5'
     },
+
+    1188: {
+      spaceBetween: 60,
+      slidesPerView:'3.4'
+  },
 
       2560: {
         spaceBetween: 20,
