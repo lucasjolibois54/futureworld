@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class FourGoalsComponent implements OnInit {
 
   fullscreen(video){
+    video.play();
     video.requestFullscreen();
-    video.play()
 }
 
   constructor() { }
