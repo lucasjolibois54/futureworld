@@ -30,214 +30,190 @@
   #container a {
     text-decoration: none;
   }*/
+
   
   @import 'swiper/scss';
-  @import 'swiper/scss/navigation';
-  @import 'swiper/scss/pagination';
-  
-  .swiper-slide img {
-    display: block;
-    width: 80%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .swiper-container{
-    margin-left: 40px;
-  }
-  
-  .swiper-button-prev {
-    color: #000; 
-    /*background-color: #264347; 
-    border-radius: 900px;
-    border-width: 60px;
-    border-color: #264347; */
-  }
-  
-  .swiper-button-next {
-    color: #000; 
-    /*background-color: #264347; 
-    border-radius: 200px;
-    border-width: 60px;
-    border-color: #264347;*/
-  }
-  
-  .swiper-pagination-bullet-active {
-    background-color: #fff !important;
-  }
-  
-  .swiper-pagination-bullet{
-    background-color: rgb(255, 255, 255);
-  }
-  
-  @media screen and (min-width: 320px) {
-    .swiper-container{
-      margin-left: 60px;
+    @import 'swiper/scss/navigation';
+    @import 'swiper/scss/pagination';
+    
+    .swiper-slide img {
+      display: block;
+      width: 80%;
+      height: 100%;
+      object-fit: cover;
     }
-  }
-  
-  @media screen and (min-width: 768px) {
+    
     .swiper-container{
-      margin-left: 110px;
+      margin-left: 40px;
     }
-  }
-
-  .card-container {
-    position: relative;
-    color: #fff;
-
-  }
-
-  .Poverty {
-    position: absolute;
-    top: 58%;
-    left: 8%;
-  }
-
-  .Poverty-p {
-    position: absolute;
-    top: 70%;
-    left: 8%;
-  }
-
-  @media screen and (min-width: 320px) {
-    .Poverty {
-        position: absolute;
-        top: 25%;
-        left: 8%;
-      }
     
-      .Poverty-p {
-        position: absolute;
-        top: 45%;
-        left: 8%;
-        font-size: 10px;
-      }
-      .swiper-slide img {
-        width: 100%;
-      }
-
-      .swiper-pagination-bullet{
-        display: none;
-      }
-  }
-
-  @media screen and (min-width: 375px) {
-    .Poverty {
-        position: absolute;
-        top: 33%;
-        left: 8%;
-      }
+    .swiper-button-prev {
+      color: #000; 
+      /*background-color: #264347; 
+      border-radius: 900px;
+      border-width: 60px;
+      border-color: #264347; */
+    }
     
-      .Poverty-p {
-        position: absolute;
-        top: 50%;
-        left: 8%;
-        font-size: 12px;
-      }
-      .swiper-slide img {
-        width: 100%;
-      }
-  }
-
-  @media screen and (min-width: 425px) {
-    .Poverty {
-        position: absolute;
-        top: 33%;
-        left: 8%;
-      }
+    .swiper-button-next {
+      color: #000; 
+      /*background-color: #264347; 
+      border-radius: 200px;
+      border-width: 60px;
+      border-color: #264347;*/
+    }
     
-      .Poverty-p {
-        position: absolute;
-        top: 50%;
-        left: 8%;
-        font-size: 14px;
-      }
-      .swiper-slide img {
-        width: 100%;
-      }
-
-  }
-
-  @media screen and (min-width: 768px) {
-
-      .swiper-pagination-bullet{
-        display: inline-block;
-      }
-  }
-
-  @media screen and (min-width: 1024px) {
-    .Poverty {
-        position: absolute;
-        top: 40%;
-        left: 8%;
-      }
+    .swiper-pagination-bullet-active {
+      background-color: #fff !important;
+    }
     
-      .Poverty-p {
-        position: absolute;
-        top: 55%;
-        left: 8%;
-        font-size: 15px;
-      }
-      .swiper-slide img {
-        width: 100%;
-      }
-
-  }
-
-  @media screen and (min-width: 1024px) {
-    .Poverty {
-        position: absolute;
-        top: 50%;
-        left: 8%;
-      }
+    .swiper-pagination-bullet{
+      background-color: rgb(255, 255, 255);
+    }
     
-      .Poverty-p {
-        position: absolute;
-        top: 65%;
-        left: 8%;
-        font-size: 20px;
+    @media screen and (min-width: 320px) {
+      .swiper-container{
+        margin-left: 60px;
       }
-      .swiper-slide img {
-        width: 100%;
-      }
-
-  }
-
-  @media screen and (min-width: 1024px) {
-    .Poverty {
-        position: absolute;
-        top: 50%;
-        left: 8%;
-      }
+    }
     
-      .Poverty-p {
-        position: absolute;
-        top: 65%;
-        left: 8%;
-        font-size: 20px;
+    @media screen and (min-width: 768px) {
+      .swiper-container{
+        margin-left: 110px;
       }
-      .swiper-slide img {
-        width: 100%;
+    }
+
+    @media screen and (min-width: 1440px) {
+      .swiper-container{
+        margin-left: 40px;
       }
+    }
 
-  }
-
-  @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 2560px) {
+      .swiper-container{
+        margin-left: 0px;
+      }
+    }
+  
+    .card-container {
+      position: relative;
+      color: #fff;
+  
+    }
+  
     .Poverty {
-        position: absolute;
-        top: 50%;
-        left: 8%;
-      }
-    
-      .Poverty-p {
-        position: absolute;
-        top: 65%;
-        left: 8%;
-        font-size: 30px;
-      }
-      .swiper-slide img {
-        width: 100%;
-      }
+      position: absolute;
+      top: 58%;
+      left: 8%;
+    }
+  
+    .Poverty-p {
+      position: absolute;
+      top: 70%;
+      left: 8%;
+    }
+  
+    @media screen and (min-width: 320px) {
+      .Poverty {
+          position: absolute;
+          top: 25%;
+          left: 8%;
+        }
+      
+        .Poverty-p {
+          position: absolute;
+          top: 45%;
+          left: 8%;
+          font-size: 10px;
+        }
+        .swiper-slide img {
+          width: 100%;
+        }
+  
+        .swiper-pagination-bullet{
+          display: none;
+        }
+    }
+  
+    @media screen and (min-width: 375px) {
+      .Poverty {
+          position: absolute;
+          top: 33%;
+          left: 8%;
+        }
+      
+        .Poverty-p {
+          position: absolute;
+          top: 50%;
+          left: 8%;
+          font-size: 12px;
+        }
+        .swiper-slide img {
+          width: 100%;
+        }
+    }
+  
+    @media screen and (min-width: 425px) {
+      .Poverty {
+          position: absolute;
+          top: 33%;
+          left: 8%;
+        }
+      
+        .Poverty-p {
+          position: absolute;
+          top: 50%;
+          left: 8%;
+          font-size: 14px;
+        }
+        .swiper-slide img {
+          width: 100%;
+        }
+  
+    }
+  
+    @media screen and (min-width: 768px) {
+  
+        .swiper-pagination-bullet{
+          display: inline-block;
+        }
+    }
+  
+    @media screen and (min-width: 1024px) {
+      .Poverty {
+          position: absolute;
+          top: 40%;
+          left: 8%;
+        }
+      
+        .Poverty-p {
+          position: absolute;
+          top: 55%;
+          left: 8%;
+          font-size: 20px;
+        }
+        .swiper-slide img {
+          width: 100%;
+        }
+  
+    }
 
-  }
+  
+    @media screen and (min-width: 2560px) {
+      .Poverty {
+          position: absolute;
+          top: 40%;
+          left: 8%;
+        }
+      
+        .Poverty-p {
+          position: absolute;
+          top: 55%;
+          left: 8%;
+          font-size: 20px;
+        }
+        .swiper-slide img {
+          width: 100%;
+        }
+  
+    }
