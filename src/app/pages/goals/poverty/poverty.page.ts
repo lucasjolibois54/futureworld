@@ -93,7 +93,8 @@ export class PovertyPage implements OnInit {
     listfour:"Richest country in the world: Qatar (GNI per capita of $116,799)",
     listfive:"Best Performing countries",
     listsix:"Denmark, Sweden, Finland, France, Austria, Germany",
-    textthree: "Idea:Install a Donation box in the common spaces in your office. Call it the 'Box of Happiness' and start an office ritual of donating 1 kr whenever someone feels happy or grateful. At the end of the year, donate the money collected to NGOs working for poverty eradication. Make sure to let your employees know that their happiness is contagious, as their contributions will make many other poor people happy!",
+    textthreetitle: "Idea:",
+    textthree: "Install a Donation box in the common spaces in your office. Call it the 'Box of Happiness' and start an office ritual of donating 1 kr whenever someone feels happy or grateful. At the end of the year, donate the money collected to NGOs working for poverty eradication. Make sure to let your employees know that their happiness is contagious, as their contributions will make many other poor people happy!",
   }
 
   factboxdata={
