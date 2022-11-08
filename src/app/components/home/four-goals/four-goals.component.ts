@@ -9,7 +9,7 @@ export class FourGoalsComponent implements OnInit {
 
   fullscreen(video){
     video.requestFullscreen();
-
+    video.play()
 }
 
   constructor() { }
