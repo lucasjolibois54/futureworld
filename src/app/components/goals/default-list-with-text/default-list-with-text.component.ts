@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-default-list-with-text',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./default-list-with-text.component.scss'],
 })
 export class DefaultListWithTextComponent implements OnInit {
+
+  @Input() primarylist
 
   constructor() { }
 
