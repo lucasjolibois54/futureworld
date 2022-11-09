@@ -11,7 +11,7 @@ import { AboutPage } from './about.page';
 import { HeroComponent } from 'src/app/components/about/hero/hero.component';
 import { NavComponent } from 'src/app/components/main/nav/nav.component';
 import { LightNavComponent } from 'src/app/components/main/light-nav/light-nav.component';
-
+import { QuoteComponent } from 'src/app/components/about/quote/quote.component';
 
 @NgModule({
   imports: [
@@ -23,6 +23,7 @@ import { LightNavComponent } from 'src/app/components/main/light-nav/light-nav.c
   declarations: [AboutPage,
     HeroComponent,
     NavComponent,
-    LightNavComponent,]
+    LightNavComponent,
+    QuoteComponent,]
 })
 export class AboutPageModule {}
