@@ -20,12 +20,15 @@ import { NextProjectComponent } from 'src/app/components/goals/next-project/next
 import { SecondaryFooterComponent } from 'src/app/components/main/secondary-footer/secondary-footer.component';
 import { SecondaryDefaultTextComponent } from 'src/app/components/goals/secondary-default-text/secondary-default-text.component';
 
+import { SwiperModule } from 'swiper/angular';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    WorkAndEconomicGrowthPageRoutingModule
+    WorkAndEconomicGrowthPageRoutingModule,
+    SwiperModule
   ],
   declarations: [WorkAndEconomicGrowthPage,
     NavComponent,
