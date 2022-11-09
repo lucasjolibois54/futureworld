@@ -14,6 +14,7 @@ import { LightNavComponent } from 'src/app/components/main/light-nav/light-nav.c
 import { QuoteComponent } from 'src/app/components/about/quote/quote.component';
 import { HowItHelpsComponent } from 'src/app/components/about/how-it-helps/how-it-helps.component';
 import { AboutUsTextboxComponent } from 'src/app/components/about/about-us-textbox/about-us-textbox.component';
+import { InfoWithImageComponent } from 'src/app/components/about/info-with-image/info-with-image.component';
 
 @NgModule({
   imports: [
@@ -28,6 +29,7 @@ import { AboutUsTextboxComponent } from 'src/app/components/about/about-us-textb
     LightNavComponent,
     QuoteComponent,
     HowItHelpsComponent,
-    AboutUsTextboxComponent,]
+    AboutUsTextboxComponent,
+    InfoWithImageComponent,]
 })
 export class AboutPageModule {}
