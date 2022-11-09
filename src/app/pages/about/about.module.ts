@@ -12,6 +12,8 @@ import { HeroComponent } from 'src/app/components/about/hero/hero.component';
 import { NavComponent } from 'src/app/components/main/nav/nav.component';
 import { LightNavComponent } from 'src/app/components/main/light-nav/light-nav.component';
 import { QuoteComponent } from 'src/app/components/about/quote/quote.component';
+import { HowItHelpsComponent } from 'src/app/components/about/how-it-helps/how-it-helps.component';
+import { AboutUsTextboxComponent } from 'src/app/components/about/about-us-textbox/about-us-textbox.component';
 
 @NgModule({
   imports: [
@@ -24,6 +26,8 @@ import { QuoteComponent } from 'src/app/components/about/quote/quote.component';
     HeroComponent,
     NavComponent,
     LightNavComponent,
-    QuoteComponent,]
+    QuoteComponent,
+    HowItHelpsComponent,
+    AboutUsTextboxComponent,]
 })
 export class AboutPageModule {}
