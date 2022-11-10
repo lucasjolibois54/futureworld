@@ -81,16 +81,16 @@ export class WorkAndEconomicGrowthPage implements OnInit {
     textthree: '“Our goal is to help you as a student become less economical worried by giving you access to cheap & modern student apartments. We want to improve your consumption in the household and show you how to save money.',
   }
 
-  fourthlistdata={
-    titlepartone: 'All of',
-    titleparttwo: 'our',
-    titlepartthree: 'Sustainable',
+  secondarylistdata={
+    titlepartone: 'Facts & Ideas',
+    titleparttwo: '',
+    titlepartthree: '',
 
     textone: "Facts",
     listone: "Men earn 12.5% more than women in 40 out of 45 countries with data.",
     listtwo:"The Unemployment rate in Europe is 6.3% in 2019, while the rate in Germany is 3.1%.",
     listthree:"470 million jobs are needed globally for new entrants to the labour market between 2016 and 2030.",
-    listfour:"Despite their increasing presence in public life, women continue to do 2.6 times the unpaid care and domestic work that men do.",
+    listfour:"",
     listfive:"",
     listsix:"",
     textthreetitle: "Idea:",
