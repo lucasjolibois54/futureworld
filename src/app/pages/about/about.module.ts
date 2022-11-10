@@ -15,6 +15,7 @@ import { QuoteComponent } from 'src/app/components/about/quote/quote.component';
 import { HowItHelpsComponent } from 'src/app/components/about/how-it-helps/how-it-helps.component';
 import { AboutUsTextboxComponent } from 'src/app/components/about/about-us-textbox/about-us-textbox.component';
 import { InfoWithImageComponent } from 'src/app/components/about/info-with-image/info-with-image.component';
+import { FaqComponent } from 'src/app/components/about/faq/faq.component';
 
 @NgModule({
   imports: [
@@ -30,6 +31,7 @@ import { InfoWithImageComponent } from 'src/app/components/about/info-with-image
     QuoteComponent,
     HowItHelpsComponent,
     AboutUsTextboxComponent,
-    InfoWithImageComponent,]
+    InfoWithImageComponent,
+    FaqComponent,]
 })
 export class AboutPageModule {}
