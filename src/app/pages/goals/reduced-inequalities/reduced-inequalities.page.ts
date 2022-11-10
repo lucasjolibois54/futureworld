@@ -78,14 +78,14 @@ export class ReducedInequalitiesPage implements OnInit {
     textthree: '“Our goal is to help you as a student become less economical worried by giving you access to cheap & modern student apartments. We want to improve your consumption in the household and show you how to save money.',
   }
 
-  primarylistdata={
+  thirdlistdata={
     titlepartone: 'All of',
     titleparttwo: 'our',
     titlepartthree: 'Sustainable',
 
     textone: "Facts",
     listone: "The Swiss citizens are 11 times wealthier than the average world citizen.",
-    listtwo:"The richest 1% of the world own 44% of the total world’s wealth.",
+    listtwo:"The richest 1% of the world own 44% of the total world's wealth.",
     listthree:"The United States is home to the highest number of millionaires (585) in the world.",
     textthreetitle: "Ideas:",
     textthree: "Many companies have inclusion policies for women, old and differently-abled people or the migrants. See if your company has one and insist on having it if they don't. Beyond this, as much as you earn, make it a habit to give back to society. Take responsibilty for educating a girl in Africa or donate food to the homeless.",
