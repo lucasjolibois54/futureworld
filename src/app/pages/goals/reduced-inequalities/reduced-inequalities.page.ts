@@ -43,11 +43,11 @@ export class ReducedInequalitiesPage implements OnInit {
   }
 
   herodata={
-    title: 'We are experts in inspiring companies, to change the world with 4 Sustainable Development goals.',
+    title: 'To be able to achieve a better world, the ineqaulity must get reduced',
   }
 
   subherodata={
-    introtext: '“We are experts in inspiring companies, to change the world with 4 Sustainable Development goals. We are experts in inspiring companies, to change the world with 4 Sustainable Development goals. We are experts in inspiring companies, to change the world with 4 Sustainable Development goals. ',
+    introtext: 'Reducing inequalities and ensuring no one is left behind are integral to acheiving the Sustainable Develeopment Goals. Inequality within and among countries is a persistent cause for concern',
     pagelink: "https://futureworld.vercel.app/poverty"
   }
 
@@ -56,15 +56,14 @@ export class ReducedInequalitiesPage implements OnInit {
     titleparttwo: 'our',
     titlepartthree: 'Sustainable',
 
-    textone: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.",
-    texttwo: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.",
+    textone: "The reduction of inequality is one of the 17 global goals. This implies support for safer migration and mobility of people, which is also important for reducing the widening inequality gap.",
+    texttwo: "Although a large proportion of the world’s poorest, have been lifted out of poverty – the income potential continues to rise. The richest 10% percent sit on 40% of total global income. From this, inequality is both a national and global problem that requires a global solution. With the 17 goals, the UN states to undertake to increase the regulation and monitoring of the financial sectors and institutions, as well as to increase foreign aid and by increasing foreign investments in the regions where the need is the greatest.",
     cta: "Our goals and values",
     ctalink: 'https://www.pexels.com/da-dk/video/huse-stov-fattig-faellesskab-3695933/',
-    textthree: '“Goal number 1 commits every nation of the world to initiate a targeted effort to increase the poor nations access to basic resources, like food, medicine, and service provisions like education.',
   }
 
   imageonedata={
-    imagelink: './assets/img/poverty-img-1.png',
+    imagelink: './assets/img/inequality-middle.webp',
   }
 
   secondarytextdata={
@@ -112,11 +111,11 @@ export class ReducedInequalitiesPage implements OnInit {
   }
 
   imagedata={
-    imagelink: './assets/img/poor-family.webp',
+    imagelink: './assets/img/inequality-bottom.webp',
   }
 
   quotedata={
-    textquote: "Eradicating poverty is not a task of charity, it's an act of justice and the key to unlocking an enormous human potential. Still, nearly half of the worl's population lives in poverty, and lack of food and clean water is killing thousands every single day of the year. Together, we can feed the hungry, wipe out disease and give everyone in the world a chance to prosper and live a productive and rich life."
+    textquote: "“If we do not put inequality at the heart of the global development agenda, we are doomed to failure.”"
   }
 
   nextprojectdata={
