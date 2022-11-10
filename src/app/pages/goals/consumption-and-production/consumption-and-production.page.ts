@@ -53,9 +53,9 @@ export class ConsumptionAndProductionPage implements OnInit {
   }
 
   primarytextdata={
-    titlepartone: 'All of',
-    titleparttwo: 'our',
-    titlepartthree: 'Sustainable',
+    titlepartone: 'Use',
+    titleparttwo: 'recources',
+    titlepartthree: 'responsible',
 
     textone: "Our overuse of resources such as plastic, concrete, electronics etc. will quite naturally hit a wall in its current form. We will probably experience that material prices will generally rise and that more resources will become decidedly scarce.",
     texttwo: "The 12th world goal obligates countries to work together to ensure that we do not exploit our natural resources and that both the private individuals and common industrial dispose of toxic waste such as chemicals and plastics in a responsible manner.",
@@ -81,9 +81,9 @@ export class ConsumptionAndProductionPage implements OnInit {
   }
 
   primarylistdata={
-    titlepartone: 'All of',
-    titleparttwo: 'our',
-    titlepartthree: 'Sustainable',
+    titlepartone: 'Facts & Ideas',
+    titleparttwo: '',
+    titlepartthree: '',
 
     textone: "Facts",
     listone: "Be conscious of packaging – the less the better!",

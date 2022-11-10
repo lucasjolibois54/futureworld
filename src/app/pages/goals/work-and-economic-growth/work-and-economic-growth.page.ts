@@ -54,9 +54,9 @@ export class WorkAndEconomicGrowthPage implements OnInit {
   }
 
   primarytextdata={
-    titlepartone: 'All of',
-    titleparttwo: 'our',
-    titlepartthree: 'Sustainable',
+    titlepartone: 'Decent work',
+    titleparttwo: '',
+    titlepartthree: 'for all',
 
     textone: "UN’s Global Goals obligate the participating countries to pursues a job-creating policy and to eradicate forced labour, slaves, and human trafficking. The goal is for all men and women to have the opportunity for full employment by 2030.",
     texttwo: "Employment has been very high In many countries such as Denmark and the USA until the corona-pandemic; but a look around the world shows that this is not the case in a lot of countries. Combining economic growth with sustainability is difficult to say the least, as growth has historically been accompanied by unsustainable actions.",
@@ -82,9 +82,9 @@ export class WorkAndEconomicGrowthPage implements OnInit {
   }
 
   secondarylistdata={
-    titlepartone: 'All of',
-    titleparttwo: 'our',
-    titlepartthree: 'Sustainable',
+    titlepartone: 'Facts & Ideas',
+    titleparttwo: '',
+    titlepartthree: '',
 
     textone: "Facts",
     listone: "Men earn 12.5% more than women in 40 out of 45 countries with data.",
