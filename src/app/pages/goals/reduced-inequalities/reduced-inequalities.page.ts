@@ -84,14 +84,11 @@ export class ReducedInequalitiesPage implements OnInit {
     titlepartthree: 'Sustainable',
 
     textone: "Facts",
-    listone: "50% of all people living in poverty are below 18 years of age.",
-    listtwo:"1 person in every 10 is extremely poor- living below 1.90$ per day.",
-    listthree:"1 out 5 children live in extreme poverty Poorest Country in the World: Liberia (GNI per capita: $710)",
-    listfour:"Richest country in the world: Qatar (GNI per capita of $116,799)",
-    listfive:"Best Performing countries",
-    listsix:"Denmark, Sweden, Finland, France, Austria, Germany",
-    textthreetitle: "Idea:",
-    textthree: "Install a Donation box in the common spaces in your office. Call it the 'Box of Happiness' and start an office ritual of donating 1 kr whenever someone feels happy or grateful. At the end of the year, donate the money collected to NGOs working for poverty eradication. Make sure to let your employees know that their happiness is contagious, as their contributions will make many other poor people happy!",
+    listone: "The Swiss citizens are 11 times wealthier than the average world citizen.",
+    listtwo:"The richest 1% of the world own 44% of the total world’s wealth.",
+    listthree:"The United States is home to the highest number of millionaires (585) in the world.",
+    textthreetitle: "Ideas:",
+    textthree: "Many companies have inclusion policies for women, old and differently-abled people or the migrants. See if your company has one and insist on having it if they don't. Beyond this, as much as you earn, make it a habit to give back to society. Take responsibilty for educating a girl in Africa or donate food to the homeless.",
   }
 
   factboxdata={
