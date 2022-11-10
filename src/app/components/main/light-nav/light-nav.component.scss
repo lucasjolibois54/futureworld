@@ -76,16 +76,9 @@
 
 
   // BURGER
-  ion-icon {
-    background: none !important;
-    color: #ffffff;
-    font-size: 24px;
-    transform: rotate(90deg);
-  }
-
-  ion-button {
-    --ion-button-background: transparent;
-}
 ion-button {
   --background: #264347 !important;
+}
+ion-list {
+  --padding-top: 150px;
 }
