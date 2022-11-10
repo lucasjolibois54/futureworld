@@ -44,11 +44,11 @@ export class ConsumptionAndProductionPage implements OnInit {
   }
 
   herodata={
-    title: 'We are experts in inspiring companies, to change the world with 4 Sustainable Development goals.',
+    title: 'Ensure sustainable consumption and production patterns',
   }
 
   subherodata={
-    introtext: '“We are experts in inspiring companies, to change the world with 4 Sustainable Development goals. We are experts in inspiring companies, to change the world with 4 Sustainable Development goals. We are experts in inspiring companies, to change the world with 4 Sustainable Development goals. ',
+    introtext: 'If we are to reach the 2030 deadline, we need the contributions and solutions of private companies. And for many, this will require us to look at every company and products in a new way. This takes more responsibility for our own company and our entire value chain, make demands on our suppliers, enter into new partnerships and investigate the possibility of sustainable product innovation inside and outside the companys.',
     pagelink: "https://futureworld.vercel.app/poverty"
   }
 
@@ -57,15 +57,15 @@ export class ConsumptionAndProductionPage implements OnInit {
     titleparttwo: 'our',
     titlepartthree: 'Sustainable',
 
-    textone: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.",
-    texttwo: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.",
+    textone: "Our overuse of resources such as plastic, concrete, electronics etc. will quite naturally hit a wall in its current form. We will probably experience that material prices will generally rise and that more resources will become decidedly scarce.",
+    texttwo: "The 12th world goal obligates countries to work together to ensure that we do not exploit our natural resources and that both the private individuals and common industrial dispose of toxic waste such as chemicals and plastics in a responsible manner.",
     cta: "Our goals and values",
     ctalink: 'https://www.pexels.com/da-dk/video/huse-stov-fattig-faellesskab-3695933/',
-    textthree: '“Goal number 1 commits every nation of the world to initiate a targeted effort to increase the poor nations access to basic resources, like food, medicine, and service provisions like education.',
+    textthree: 'For the richest countries of the world, it applies that they must not only make a huge effort to reduce their own footprint on the world, for example by reducing food waste and clothing consumption, but also helps developing countries economically and technologically to move in a more sustainable direction.',
   }
 
   imageonedata={
-    imagelink: './assets/img/poverty-img-1.png',
+    imagelink: './assets/img/factory-production.webp',
   }
 
   secondarytextdata={
@@ -113,11 +113,11 @@ export class ConsumptionAndProductionPage implements OnInit {
   }
 
   imagedata={
-    imagelink: './assets/img/poor-family.webp',
+    imagelink: './assets/img/windmill-production.webp',
   }
 
   quotedata={
-    textquote: "Eradicating poverty is not a task of charity, it's an act of justice and the key to unlocking an enormous human potential. Still, nearly half of the worl's population lives in poverty, and lack of food and clean water is killing thousands every single day of the year. Together, we can feed the hungry, wipe out disease and give everyone in the world a chance to prosper and live a productive and rich life."
+    textquote: "“Sustainability is not just about adopting the latest energy-efficient technologies or turning to renewable sources of power. Sustainability is the responsibility of every individual every day. It is about changing our behaviour and mindset to reduce power and water consumption, thereby helping to control emissions and pollution levels.”"
   }
 
   nextprojectdata={
