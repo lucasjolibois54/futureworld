@@ -87,14 +87,14 @@ export class WorkAndEconomicGrowthPage implements OnInit {
     titlepartthree: 'Sustainable',
 
     textone: "Facts",
-    listone: "50% of all people living in poverty are below 18 years of age.",
-    listtwo:"1 person in every 10 is extremely poor- living below 1.90$ per day.",
-    listthree:"1 out 5 children live in extreme poverty Poorest Country in the World: Liberia (GNI per capita: $710)",
-    listfour:"Richest country in the world: Qatar (GNI per capita of $116,799)",
-    listfive:"Best Performing countries",
-    listsix:"Denmark, Sweden, Finland, France, Austria, Germany",
+    listone: "Men earn 12.5% more than women in 40 out of 45 countries with data.",
+    listtwo:"The Unemployment rate in Europe is 6.3% in 2019, while the rate in Germany is 3.1%.",
+    listthree:"470 million jobs are needed globally for new entrants to the labour market between 2016 and 2030.",
+    listfour:"",
+    listfive:"",
+    listsix:"",
     textthreetitle: "Idea:",
-    textthree: "Install a Donation box in the common spaces in your office. Call it the 'Box of Happiness' and start an office ritual of donating 1 kr whenever someone feels happy or grateful. At the end of the year, donate the money collected to NGOs working for poverty eradication. Make sure to let your employees know that their happiness is contagious, as their contributions will make many other poor people happy!",
+    textthree: "Economic growth doesn't mean anything unless it leaves any people out! Here is some ideas that could help your business! For starter, you can be proactive in employing people from diverse backgrounds and provide them decent work conditions! Some of your younger workers can be provided with career counseling to help them find their aptitudes/abilites. Generally you could treat all workers, from the CEO to the plumber, with an equal amount of respect and appreciation - Everyone is doing their parrt to contribute so why not?",
   }
 
   factboxdata={

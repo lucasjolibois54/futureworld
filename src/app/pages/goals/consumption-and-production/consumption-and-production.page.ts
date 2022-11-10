@@ -86,14 +86,14 @@ export class ConsumptionAndProductionPage implements OnInit {
     titlepartthree: 'Sustainable',
 
     textone: "Facts",
-    listone: "50% of all people living in poverty are below 18 years of age.",
-    listtwo:"1 person in every 10 is extremely poor- living below 1.90$ per day.",
-    listthree:"1 out 5 children live in extreme poverty Poorest Country in the World: Liberia (GNI per capita: $710)",
+    listone: "Be conscious of packaging – the less the better!",
+    listtwo:"Choose reusable products. Use an eco-bag for shopping, a reusable water bottle or a cup to reduce your plastic waste.",
+    listthree:"Advocate for corporate responsibility. Join petitions and campaigns calling out businesses with unsustainable practices.",
     listfour:"Richest country in the world: Qatar (GNI per capita of $116,799)",
-    listfive:"Best Performing countries",
-    listsix:"Denmark, Sweden, Finland, France, Austria, Germany",
+    listfive:"Stay informed. Follow your local news and stay in touch with the Global Goals online or on social media at @TheGlobalGoals.",
+    listsix:"",
     textthreetitle: "Idea:",
-    textthree: "Install a Donation box in the common spaces in your office. Call it the 'Box of Happiness' and start an office ritual of donating 1 kr whenever someone feels happy or grateful. At the end of the year, donate the money collected to NGOs working for poverty eradication. Make sure to let your employees know that their happiness is contagious, as their contributions will make many other poor people happy!",
+    textthree: "There is much your business can do! For example: Be more concious of packaging, buy from companies you know have sustainable practices, choose reusable products for common workitem or advocate for general corporate responsiblity by joining petitions or campaigns, calling out other companies with unsustainable practises.",
   }
 
   factboxdata={
