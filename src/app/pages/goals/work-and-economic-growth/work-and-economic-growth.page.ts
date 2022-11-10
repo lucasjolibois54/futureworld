@@ -66,7 +66,7 @@ export class WorkAndEconomicGrowthPage implements OnInit {
   }
 
   imageonedata={
-    imagelink: './assets/img/poverty-img-1.png',
+    imagelink: './assets/img/Plants-economic-growth.webp',
   }
 
   secondarytextdata={
@@ -114,11 +114,11 @@ export class WorkAndEconomicGrowthPage implements OnInit {
   }
 
   imagedata={
-    imagelink: './assets/img/poor-family.webp',
+    imagelink: './assets/img/indian-worker.webp',
   }
 
   quotedata={
-    textquote: "Eradicating poverty is not a task of charity, it's an act of justice and the key to unlocking an enormous human potential. Still, nearly half of the worl's population lives in poverty, and lack of food and clean water is killing thousands every single day of the year. Together, we can feed the hungry, wipe out disease and give everyone in the world a chance to prosper and live a productive and rich life."
+    textquote: "“Economic growth doesn’t mean anything if it leaves people out.”"
   }
 
   nextprojectdata={
