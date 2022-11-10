@@ -45,11 +45,11 @@ export class PovertyPage implements OnInit {
   }
 
   herodata={
-    title: 'We are experts in inspiring companies, to change the world with 4 Sustainable Development goals.',
+    title: 'End poverty in all its forms everywhere',
   }
 
   subherodata={
-    introtext: '“We are experts in inspiring companies, to change the world with 4 Sustainable Development goals. We are experts in inspiring companies, to change the world with 4 Sustainable Development goals. We are experts in inspiring companies, to change the world with 4 Sustainable Development goals. ',
+    introtext: 'Goal number 1 commits every nation of the world to initiate a targeted effort to increase the poor nations access to basic resources, like food, medicine, and service provisions like education.',
     pagelink: "https://futureworld.vercel.app/poverty"
   }
 
@@ -58,9 +58,9 @@ export class PovertyPage implements OnInit {
     titleparttwo: 'our',
     titlepartthree: 'Sustainable',
 
-    textone: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.",
-    texttwo: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.",
-    textthree: '“Goal number 1 commits every nation of the world to initiate a targeted effort to increase the poor nations access to basic resources, like food, medicine, and service provisions like education.',
+    textone: "Eradicating extreme poverty for all people everywhere by 2030 is a pivotal goal of the 2030 Agenda for Sustainable Development",
+    texttwo: "Even though the total amount of poor people in the world was reduced from 1.9 billion in 1990 to 734 million in 2015, is 700 million people are fighting every day to get food from the table. They live for less than 1.9 dollars a day. Poverty is a big challenge for the world, hence the poorer a country is, the more children are born. This concerns everyone since the world is getting overpopulated. Another big part of this is that the poorest countries, is also the most vulnerable for things like natural catastrophes.",
+    textthree: 'The impact of the COVID-19 pandemic reversed everything regarding the steady progress of poverty reduction over the past year. Because of this, we all need to act.',
   }
 
   imageonedata={
@@ -116,7 +116,7 @@ export class PovertyPage implements OnInit {
   }
 
   quotedata={
-    textquote: "Eradicating poverty is not a task of charity, it's an act of justice and the key to unlocking an enormous human potential. Still, nearly half of the worl's population lives in poverty, and lack of food and clean water is killing thousands every single day of the year. Together, we can feed the hungry, wipe out disease and give everyone in the world a chance to prosper and live a productive and rich life."
+    textquote: "Eradicating poverty is not a task of charity, it's an act of justice and the key to unlocking an enormous human potential. Still, nearly half of the world's population lives in poverty, and lack of food and clean water is killing thousands every single day of the year. Together, we can feed the hungry, wipe out disease and give everyone in the world a chance to prosper and live a productive and rich life."
   }
 
   nextprojectdata={
