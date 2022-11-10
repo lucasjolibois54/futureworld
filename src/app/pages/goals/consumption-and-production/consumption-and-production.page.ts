@@ -93,7 +93,10 @@ export class ConsumptionAndProductionPage implements OnInit {
     listfive:"Stay informed. Follow your local news and stay in touch with the Global Goals online or on social media at @TheGlobalGoals.",
     listsix:"",
     textthreetitle: "Idea:",
-    textthree: "There is much your business can do! For example: Be more concious of packaging, buy from companies you know have sustainable practices, choose reusable products for common workitem or advocate for general corporate responsiblity by joining petitions or campaigns, calling out other companies with unsustainable practises.",
+    textthree: "Be conscious of packaging – the less the better!",
+    textfour: "Do some research and buy from companies you know have sustainable practices and don’t harm the environment.",
+    textfive: "Choose reusable products. Use an eco-bag for shopping, a reusable water bottle or a cup to reduce your plastic waste.",
+    textsix: "Advocate for corporate responsibility. Join petitions and campaigns calling out businesses with unsustainable practices.",
   }
 
   factboxdata={

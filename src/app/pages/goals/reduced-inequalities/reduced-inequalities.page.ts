@@ -88,7 +88,8 @@ export class ReducedInequalitiesPage implements OnInit {
     listtwo:"The richest 1% of the world own 44% of the total world's wealth.",
     listthree:"The United States is home to the highest number of millionaires (585) in the world.",
     textthreetitle: "Ideas:",
-    textthree: "Many companies have inclusion policies for women, old and differently-abled people or the migrants. See if your company has one and insist on having it if they don't. Beyond this, as much as you earn, make it a habit to give back to society. Take responsibilty for educating a girl in Africa or donate food to the homeless.",
+    textthree: "Many companies have inclusion policies- for women, old and differently-abled people or the migrants. See if your company has one. Insist on having it if they don’t.",
+    textfour: "As much as you earn, also make it a habit to give back to society. Take responsibility for educating a girl in Africa or donate food to the homeless.",
   }
 
   factboxdata={
