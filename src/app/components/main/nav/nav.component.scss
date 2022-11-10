@@ -72,3 +72,16 @@
   transition: 0s;
   transform: translate(0, 5%);
 }
+
+
+
+  // BURGER
+  ion-button {
+    --background: #264347 !important;
+  }
+  ion-list {
+    --padding-top: 150px;
+  }
+  ion-menu {
+    --ion-font-family:'Poppins', sans-serif !important; 
+  }
