@@ -16,6 +16,7 @@ import { HowItHelpsComponent } from 'src/app/components/about/how-it-helps/how-i
 import { AboutUsTextboxComponent } from 'src/app/components/about/about-us-textbox/about-us-textbox.component';
 import { InfoWithImageComponent } from 'src/app/components/about/info-with-image/info-with-image.component';
 import { FaqComponent } from 'src/app/components/about/faq/faq.component';
+import { SecondaryFooterComponent } from 'src/app/components/main/secondary-footer/secondary-footer.component';
 
 @NgModule({
   imports: [
@@ -32,6 +33,7 @@ import { FaqComponent } from 'src/app/components/about/faq/faq.component';
     HowItHelpsComponent,
     AboutUsTextboxComponent,
     InfoWithImageComponent,
-    FaqComponent,]
+    FaqComponent,
+    SecondaryFooterComponent]
 })
 export class AboutPageModule {}
