@@ -48,7 +48,7 @@ export class ReducedInequalitiesPage implements OnInit {
 
   subherodata={
     introtext: 'Reducing inequalities and ensuring no one is left behind are integral to acheiving the Sustainable Develeopment Goals. Inequality within and among countries is a persistent cause for concern',
-    pagelink: "https://futureworld.vercel.app/poverty"
+    pagelink: "https://futureworld.vercel.app/reduced-inequalities"
   }
 
   primarytextdata={
@@ -88,7 +88,8 @@ export class ReducedInequalitiesPage implements OnInit {
     listtwo:"The richest 1% of the world own 44% of the total world’s wealth.",
     listthree:"The United States is home to the highest number of millionaires (585) in the world.",
     textthreetitle: "Ideas:",
-    textthree: "Many companies have inclusion policies for women, old and differently-abled people or the migrants. See if your company has one and insist on having it if they don't. Beyond this, as much as you earn, make it a habit to give back to society. Take responsibilty for educating a girl in Africa or donate food to the homeless.",
+    textthree: "Many companies have inclusion policies- for women, old and differently-abled people or the migrants. See if your company has one. Insist on having it if they don’t.",
+    textfour: "As much as you earn, also make it a habit to give back to society. Take responsibility for educating a girl in Africa or donate food to the homeless.",
   }
 
   factboxdata={
@@ -118,11 +119,11 @@ export class ReducedInequalitiesPage implements OnInit {
   nextprojectdata={
     textonelineone: 'Economic',
     textonelinetwo: 'Growth',
-    nextporjectpathone: '/consumption-and-production',
+    nextporjectpathone: '/work-and-economic-growth',
 
-    texttwolineone: 'Less',
-    texttwolinetwo: 'Inequality',
-    nextporjectpathtwo: '/reduced-inequalities',
+    texttwolineone: 'Consumption &',
+    texttwolinetwo: 'Production',
+    nextporjectpathtwo: '/consumption-and-production',
 
   }
 
