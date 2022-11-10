@@ -120,13 +120,13 @@ export class PovertyPage implements OnInit {
   }
 
   nextprojectdata={
-    textonelineone: 'Economic',
-    textonelinetwo: 'Growth',
+    textonelineone: 'Consumption &',
+    textonelinetwo: 'Production',
     nextporjectpathone: '/consumption-and-production',
 
-    texttwolineone: 'Less',
-    texttwolinetwo: 'Inequality',
-    nextporjectpathtwo: '/reduced-inequalities',
+    texttwolineone: 'Economic',
+    texttwolinetwo: 'Growth',
+    nextporjectpathtwo: '/work-and-economic-growth',
 
   }
 
