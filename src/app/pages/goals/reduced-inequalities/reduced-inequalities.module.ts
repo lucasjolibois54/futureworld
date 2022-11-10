@@ -20,6 +20,7 @@ import { QuoteComponent } from 'src/app/components/goals/quote/quote.component';
 import { NextProjectComponent } from 'src/app/components/goals/next-project/next-project.component';
 import { SecondaryFooterComponent } from 'src/app/components/main/secondary-footer/secondary-footer.component';
 import { SecondaryDefaultTextComponent } from 'src/app/components/goals/secondary-default-text/secondary-default-text.component';
+import { SmallBulletPointSectionComponent } from 'src/app/components/goals/small-bullet-point-section/small-bullet-point-section.component';
 
 import { SwiperModule } from 'swiper/angular';
 
@@ -44,6 +45,7 @@ import { SwiperModule } from 'swiper/angular';
     NextProjectComponent,  
     SecondaryFooterComponent,
     SecondaryDefaultTextComponent,
+    SmallBulletPointSectionComponent
   ]
   
 
