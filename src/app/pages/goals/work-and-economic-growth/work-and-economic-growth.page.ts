@@ -50,7 +50,7 @@ export class WorkAndEconomicGrowthPage implements OnInit {
 
   subherodata={
     introtext: '“Sustained and inclusive economic growth can drive progress, create decent jobs for all and improve living standards.',
-    pagelink: "https://futureworld.vercel.app/poverty"
+    pagelink: "https://futureworld.vercel.app/work-and-economic-growth"
   }
 
   primarytextdata={
@@ -94,7 +94,10 @@ export class WorkAndEconomicGrowthPage implements OnInit {
     listfive:"",
     listsix:"",
     textthreetitle: "Idea:",
-    textthree: "Economic growth doesn't mean anything unless it leaves any people out! Here is some ideas that could help your business! For starter, you can be proactive in employing people from diverse backgrounds and provide them decent work conditions! Some of your younger workers can be provided with career counseling to help them find their aptitudes/abilites. Generally you could treat all workers, from the CEO to the plumber, with an equal amount of respect and appreciation - Everyone is doing their parrt to contribute so why not?",
+    textthree: "Companies can be proactive in employing people from diverse backgrounds, and provide decent work conditions.",
+    textfour: "Young workers can be provided with career counseling to help them identify their aptitudes/abilities",
+    textfive: "Parents and caregivers can be provided flexible work hours and the possibility to work from home as and when needed.",
+    textsix: "Treat all workers, from the CEO to the plumber, with equal amounts of respect and appreciation. Everyone is doing their part in contributing to economic growth.",
   }
 
   factboxdata={
@@ -122,9 +125,9 @@ export class WorkAndEconomicGrowthPage implements OnInit {
   }
 
   nextprojectdata={
-    textonelineone: 'Economic',
-    textonelinetwo: 'Growth',
-    nextporjectpathone: '/consumption-and-production',
+    textonelineone: 'No',
+    textonelinetwo: 'Poverty',
+    nextporjectpathone: '/poverty',
 
     texttwolineone: 'Less',
     texttwolinetwo: 'Inequality',
