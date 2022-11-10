@@ -45,11 +45,11 @@ export class WorkAndEconomicGrowthPage implements OnInit {
   }
 
   herodata={
-    title: 'We are experts in inspiring companies, to change the world with 4 Sustainable Development goals.',
+    title: 'How can you as a company implement UN’s sustainable development goal: economic growth?',
   }
 
   subherodata={
-    introtext: '“We are experts in inspiring companies, to change the world with 4 Sustainable Development goals. We are experts in inspiring companies, to change the world with 4 Sustainable Development goals. We are experts in inspiring companies, to change the world with 4 Sustainable Development goals. ',
+    introtext: '“Sustained and inclusive economic growth can drive progress, create decent jobs for all and improve living standards.',
     pagelink: "https://futureworld.vercel.app/poverty"
   }
 
@@ -58,11 +58,11 @@ export class WorkAndEconomicGrowthPage implements OnInit {
     titleparttwo: 'our',
     titlepartthree: 'Sustainable',
 
-    textone: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.",
-    texttwo: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.",
+    textone: "UN’s Global Goals obligate the participating countries to pursues a job-creating policy and to eradicate forced labour, slaves, and human trafficking. The goal is for all men and women to have the opportunity for full employment by 2030.",
+    texttwo: "Employment has been very high In many countries such as Denmark and the USA until the corona-pandemic; but a look around the world shows that this is not the case in a lot of countries. Combining economic growth with sustainability is difficult to say the least, as growth has historically been accompanied by unsustainable actions.",
     cta: "Our goals and values",
     ctalink: 'https://www.pexels.com/da-dk/video/huse-stov-fattig-faellesskab-3695933/',
-    textthree: '“Goal number 1 commits every nation of the world to initiate a targeted effort to increase the poor nations access to basic resources, like food, medicine, and service provisions like education.',
+    textthree: 'A key challenge here is to find out whether and how economic growth can be combined with, for example, environmental sustainability.',
   }
 
   imageonedata={
