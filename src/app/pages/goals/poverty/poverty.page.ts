@@ -54,9 +54,9 @@ export class PovertyPage implements OnInit {
   }
 
   primarytextdata={
-    titlepartone: 'All of',
-    titleparttwo: 'our',
-    titlepartthree: 'Sustainable',
+    titlepartone: 'Leave no one',
+    titleparttwo: '',
+    titlepartthree: 'Behind',
 
     textone: "Eradicating extreme poverty for all people everywhere by 2030 is a pivotal goal of the 2030 Agenda for Sustainable Development",
     texttwo: "Even though the total amount of poor people in the world was reduced from 1.9 billion in 1990 to 734 million in 2015, is 700 million people are fighting every day to get food from the table. They live for less than 1.9 dollars a day. Poverty is a big challenge for the world, hence the poorer a country is, the more children are born. This concerns everyone since the world is getting overpopulated. Another big part of this is that the poorest countries, is also the most vulnerable for things like natural catastrophes.",
@@ -80,9 +80,9 @@ export class PovertyPage implements OnInit {
   }
 
   primarylistdata={
-    titlepartone: 'All of',
-    titleparttwo: 'our',
-    titlepartthree: 'Sustainable',
+    titlepartone: 'Facts & Ideas',
+    titleparttwo: '',
+    titlepartthree: '',
 
     textone: "Facts",
     listone: "50% of all people living in poverty are below 18 years of age.",
